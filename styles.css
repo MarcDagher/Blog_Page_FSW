@@ -6,21 +6,76 @@
 }
 
 body{
-  background-color: rgba(27, 26, 26, 0.5);
+  font-family: 'Roboto Slab', serif;
 }
 
-nav{
-  /* position: fixed; */
-  /* top: 0;
-  left: 50%; */
-  height: 80px;
-  width: 100%;
+.container{
   max-width: 1000px;
   margin: 0 auto;
-  background-color: grey; 
 }
 
 img{
   height: 200px;
   width: 200px;
+}
+
+h2{
+  font-size: 24px;
+  text-decoration: 3px underline;
+}
+
+/* navigation bar */
+
+nav{
+  height: 80px;
+}
+
+/* Main title h1*/
+
+.main-title{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+/* key concepts section continer*/
+
+.key-concepts{
+  width: 95%;
+  margin: 0 auto 30px auto;
+}
+
+    /* key concepts elements */
+
+.key-concepts h2{
+  margin-bottom: 20px;
+}
+
+.key-concepts li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+span{
+  color: Purple;
+}
+
+figure{
+  float: right;
+  margin: 30px;
+}
+
+figure img{
+  height: 80%;
+  max-height: 300px;
+  width: 250px;
+  margin-left: 35px;
+  border-radius: 50%;
+}
+
+figcaption{
+  font-size: 14px;
+  font-style: italic;
+  color: purple;
 }

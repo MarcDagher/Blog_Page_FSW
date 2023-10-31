@@ -4,78 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Slab:wght@200;300;400;600&display=swap" rel="stylesheet">
   <title>Blog Page</title>
 </head>
 <body>
-  <!-- navigation bar -->
-  <nav>
-    <h1> The Blog of Blogs </h1>
-    <div>
-      <a href="#">Home</a>
-      <a href="#">More Blogs</a>
-      <a href="#">Write My Own Blog</a>
-    </div>
-  </nav>
+  <div class="container">
+    <!-- navigation bar -->
+    <nav>
+      <h1> The Blog of Blogs </h1>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">More Blogs</a>
+        <a href="#">Write My Own Blog</a>
+      </div>
+    </nav>
 
-  <!-- Main title -->
+    <!-- Main title -->
 
-  <header>
-    <h1>Carl Jung</h1>
-  </header>
+    <header>
+      <h1 class="main-title">Carl. G. Jung</h1>
+    </header>
 
-  <!-- key concepts -->
+    <!-- key concepts -->
 
-  <section>
-    <h2>Key Concepts</h2>
-    <ul>
-      <li><span>Anima and animus</span> the contrasexual aspect of a person's psyche. In a woman's psyche, her inner personal masculine is conceived both as a complex and an archetypal image; comparably in a man's psyche, his inner personal feminine is conceived both as a complex and an archetypal image.</li>
-      <li><span>Archetype</span> —a concept "borrowed" from anthropology to denote supposedly universal and recurring mental images or themes. Jung's descriptions of archetypes varied over time.</li>
-      <li><span>Archetypal images </span> —universal symbols that can mediate opposites in the psyche, often found in religious art, mythology, and fairy tales across cultures.</li>
-      <li><span>Collective unconscious </span>—aspects of unconsciousness experienced by all people in different cultures.</li>
-      <li><span>Complex</span> —the repressed organisation of images and experiences that governs perception and behaviour.</li>
-      <li><span>Extraversion and introversion</span> —personality traits of degrees of openness or reserve contributing to psychological type.</li>
-      <li><span>Shadow</span> —(archetype) the repressed, therefore unknown, aspects of the personality including those often considered to be negative.</li>
-    </ul>  
+    <section class="key-concepts">
+      <h2>Key Concepts</h2>
+      <figure>
+        <img src="./Assets/Jung.jpg" alt="Picture of Jung">
+        <figcaption> "Embrace Your Grief. For There Your Soul Will Grow."</figcaption>
+      </figure>
+      <ul>
+        <li><span>Anima and animus</span> the contrasexual aspect of a person's psyche. In a woman's psyche, her inner personal masculine is conceived both as a complex and an archetypal image; comparably in a man's psyche, his inner personal feminine is conceived both as a complex and an archetypal image.</li>
+        <li><span>Archetype</span> —a concept "borrowed" from anthropology to denote supposedly universal and recurring mental images or themes. Jung's descriptions of archetypes varied over time.</li>
+        <li><span>Archetypal images </span> —universal symbols that can mediate opposites in the psyche, often found in religious art, mythology, and fairy tales across cultures.</li>
+        <li><span>Collective unconscious </span>—aspects of unconsciousness experienced by all people in different cultures.</li>
+        <li><span>Complex</span> —the repressed organisation of images and experiences that governs perception and behaviour.</li>
+        <li><span>Extraversion and introversion</span> —personality traits of degrees of openness or reserve contributing to psychological type.</li>
+        <li><span>Shadow</span> —(archetype) the repressed, therefore unknown, aspects of the personality including those often considered to be negative.</li>
+      </ul>  
 
-    <figure>
-      <img src="./Assets/Jung.jpg" alt="Picture of Jung">
-      <figcaption> Embrace Your Grief. For There Your Soul Will Grow.</figcaption>
-    </figure>
-  </section>
+    </section>
 
-  <!-- books and publications -->
+    <!-- books and publications -->
 
-  <section>    
-    <h2>Some Publications</h2>
-    <img src="./Assets/jung2.webp" alt="pit">
-    
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Publush Date</th>
-        <th>About</th>
-      </tr>
-      <tr>
-        <td>Modern Man in Search of a Soul</td>
-        <td>1931</td>
-        <td>Psychotherapy, stages of life, soul</td>
-      </tr>
-      <tr>
-        <td>Memories, Dreams, Reflections</td>
-        <td>1962</td>
-        <td>Life story and reflection</td>
-      </tr>
-      <tr>
-        <td>Man and His Symbols</td>
-        <td>1964</td>
-        <td>Unconscious</td>
-      </tr>
-      <tr>
-        <td>Aion</td>
-        <td>1951</td>
-        <td>Psyche, symbols</td>
-      </tr>
-    </table>
-  </section>
+    <section>    
+      <h2>Some Publications</h2>
+      <img src="./Assets/jung2.webp" alt="pit">
+      
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Publush Date</th>
+          <th>About</th>
+        </tr>
+        <tr>
+          <td>Modern Man in Search of a Soul</td>
+          <td>1931</td>
+          <td>Psychotherapy, stages of life, soul</td>
+        </tr>
+        <tr>
+          <td>Memories, Dreams, Reflections</td>
+          <td>1962</td>
+          <td>Life story and reflection</td>
+        </tr>
+        <tr>
+          <td>Man and His Symbols</td>
+          <td>1964</td>
+          <td>Unconscious</td>
+        </tr>
+        <tr>
+          <td>Aion</td>
+          <td>1951</td>
+          <td>Psyche, symbols</td>
+        </tr>
+      </table>
+    </section>
+  </div>
 </body>
 </html>

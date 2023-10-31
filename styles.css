@@ -14,15 +14,18 @@ body{
   margin: 0 auto;
 }
 
-img{
-  height: 200px;
-  width: 200px;
+section, nav{
+  width: 95%;
+  margin: 0 auto 30px auto;
 }
+
 
 h2{
   font-size: 24px;
   text-decoration: 3px underline;
+  margin-bottom: 20px;
 }
+
 
 /* navigation bar */
 
@@ -39,18 +42,10 @@ nav{
   font-size: 40px;
 }
 
-/* key concepts section continer*/
-
-.key-concepts{
-  width: 95%;
-  margin: 0 auto 30px auto;
-}
-
-    /* key concepts elements */
-
-.key-concepts h2{
-  margin-bottom: 20px;
-}
+a, li, td{
+  font-size: 15px;
+} 
+/* key concepts elements */
 
 .key-concepts li{
   list-style-type: none;
@@ -59,6 +54,7 @@ nav{
 
 span{
   color: Purple;
+  font-size: 18px;
 }
 
 figure{
@@ -78,4 +74,41 @@ figcaption{
   font-size: 14px;
   font-style: italic;
   color: purple;
+}
+
+/* Some Publication */
+
+/* .publications{
+  position: relative;
+} */
+
+table{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
+  height: 250px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* .publications h2{
+  position: absolute;
+  transform:rotate(270deg) ;
+  top: 100px;
+  left: 0;
+} */
+
+th, td{
+  padding: 4px;
+}
+
+
+tr:nth-child(even) {
+  background-color: rgba(128, 0, 128, 0.418);
+  border-radius: 10px;
+}
+
+.title{
+  font-weight: bold;
+  font-style: italic;
 }

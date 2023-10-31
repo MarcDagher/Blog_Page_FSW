@@ -31,7 +31,17 @@ h2{
 
 nav{
   height: 80px;
+  margin-top: 20px;
 }
+
+.links a{
+  text-decoration: none;
+  color: rgb(2, 204, 204);
+  margin-left: 2px;
+  font-style: italic;
+  font-size: 14px;
+}
+
 
 /* Main title h1*/
 
@@ -45,7 +55,9 @@ nav{
 a, li, td{
   font-size: 15px;
 } 
-/* key concepts elements */
+
+
+/* key concepts section */
 
 .key-concepts li{
   list-style-type: none;
@@ -76,7 +88,7 @@ figcaption{
   color: purple;
 }
 
-/* Some Publication */
+/* Some Publication Section*/
 
 /* .publications{
   position: relative;
